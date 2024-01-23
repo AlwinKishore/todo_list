@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS */
+.todo_body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.user_input{
+  margin-top: 3rem;
+}
+
+.todo_table{
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  width: 20rem;
+  border: 1px solid black;
+}
+
+tr{
+  border: 1px solid black;
+}
+
+td{
+  font-size: 18px;
+}
+
+.remove-icon{
+  cursor: pointer;
+}
+
+button{
+  background: lightgreen;
+  border: 2px solid green;
+  border-radius: 5px;
+  width: 4rem;
+}
